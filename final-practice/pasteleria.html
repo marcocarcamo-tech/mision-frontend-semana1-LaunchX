@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pasteleria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Pastelería</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="./assets/logo kawaii tazas personalizadas emprendimiento (2).png"></a>
+        </div>
+        <nav class="header-nav">
+            <a>Nosotros</a>
+            <a>Menú</a>
+            <a>Haz un pedido</a>
+        </nav>
+    </header>
+
+    <section class="container">
+
+        <h1>Te damos la bienvenida</h1>
+
+        <h2>Nosotros</h2>
+        <p>Somos una pastelería especializada en la confección de pasteles personalizados, puedes elegir los elementos decorativos, el diseño y el tamaño para que tengas las mejor experiencia con nuestros productos</p>
+
+        <div class="container-menu">
+
+            <div>
+                <h2 class="container-menu-titles">Menú</h2>
+
+                <h3 class="container-menu-titles">Sabores</h3>
+                <ul class="container-sabores">
+                    <li>Arándano</li>
+                    <li>Chocolate</li>
+                    <li>Fresa</li>
+                    <li>Vainilla</li>
+                    <li>Moras</li>
+                    <li>Frambuesa</li>
+                    <li>Frutos rojos</li>
+                    <li>Matcha</li>
+                    <li>Maracuyá</li>
+                    <li>Durazno</li>
+                    <li>Tres leches</li>
+                </ul>
+
+                <h3 class="container-menu-titles">Adornos</h3>
+                <ul class="container-adornos">
+                    <li>Cobertura de chocolate</li>
+                    <li>Láminas de chocolate amargo</li>
+                    <li>Fresas</li>
+                    <li>Nueces</li>
+                    <li>Crema pastelera</li>
+                    <li>Frustos rojos</li>
+                    <li>Higos</li>
+                    <li>Flores de fondant</li>
+                    <li>Flores naturales</li>
+                    <li>Decoración de orilla</li>
+                    <li>Macarrons</li>
+                </ul>
+            </div>
+
+            
+            
+        </div>
+
+        <div class="container-order">
+            <h2>Haz tu pedido aquí</h2>
+
+            <h3>¿Qué deseas que lleve tu pastel?</h3>
+            <form class="container-order-form">
+
+                <h3 class="container-order-titles">Datos del pedido</h3>
+                <p class="container-order-titles">Ayúdano proporcionando algunos de tus datos para poder hacerte llegar tu pedido</p>
+                
+                
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="nombre">
+                
+                <label for="tel">Teléfono</label>
+                <input type="text" id="tel" name="tel" maxlength="10">
+
+                <label for="email">Correo electrónico</label>
+                <input type="text" id="email" name="email">
+
+                <label for="descripction">Descripción general del pastel</label>
+                <textarea id="descripction" name="descripction" maxlength="250"></textarea>
+
+                <h3 class="container-order-titles">Elige los sabores de tu pastel</h3>
+                <p class="container-order-titles">Puedes elegir hasta tres sabores</p>
+                <div class="flavor">
+                    <input type="checkbox" id="arandano" name="arandano" value="arandano">
+                    <label for="arandano">Arándano</label>
+                </div>
+                
+                <div> 
+                    <input type="checkbox" id=chocolate" name=chocolate" value=chocolate">
+                    <label for=chocolate">Chocolate</label>
+                </div>
+               
+                <div>
+                    <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+                    <label for="Fresa">Fresa</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+                    <label for="Vainilla">Vainilla</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Moras" name="Moras" value="Moras">
+                    <label for="Moras">Moras</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Frambuesa" name="Frambuesa" value="Frambuesa">
+                    <label for="Frambuesa">Frambuesa</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Frutosrojos" name="Frutosrojos" value="Frutosrojos">
+                    <label for="Frutosrojos">Frutos rojos</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Matcha" name="Matcha" value="Matcha">
+                    <label for="Matcha">Matcha</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Maracuya" name="Maracuya" value="Maracuya">
+                    <label for="Maracuya">Maracuyá</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Durazno" name="Durazno" value="Durazno">
+                    <label for="Durazno">Durazno</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="Tresleches" name="Tresleches" value="Tresleches">
+                    <label for="Tresleches">Tres leches</label>
+                </div>
+                
+            
+
+                <h3 class="container-order-titles">Elige los adornos de tu pastel</h3>
+                <p class="container-order-titles">Puedes elegir hasta cinco diferentes</p>
+
+                <div>
+                    <input type="checkbox" id="Cobertura_chocolate" name="Cobertura_chocolate" value="Cobertura_chocolate">
+                    <label for="Cobertura_chocolate">Cobertura de chocolate</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id=laminas-chocolate" name=laminas-chocolate" value=laminas-chocolate">
+                    <label for=laminas-chocolate">Láminas de chocolate amargo</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Fresas" name="Fresas" value="Fresas">
+                    <label for="Fresas">Fresas</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="nueces" name="nueces" value="nueces">
+                    <label for="nueces">Nueces</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="crema-pastelera" name="crema-pastelera" value="crema-pastelera">
+                    <label for="crema-pastelera">Crema pastelera</label>
+                </div>
+                
+
+                <div>
+                    <input type="checkbox" id="frutos-rojos" name="frutos-rojos" value="frutos-rojos">
+                    <label for="frutos-rojos">Frutos rojos</label>
+                </div>
+                
+
+                <div>
+                    <input type="checkbox" id="higos" name="higos" value="higos">
+                    <label for="higos">Higos</label>
+                </div>
+                
+
+                <div>
+                    <input type="checkbox" id="flores-fondant" name="flores-fondant" value="flores-fondant">
+                    <label for="flores-fondant">Flores de fondant</label>
+                </div>
+                
+
+                <div>
+                    <input type="checkbox" id="flores-naturales" name="flores-naturales" value="flores-naturales">
+                    <label for="flores-naturales">Flores de naturales</label>
+                </div>
+                
+
+                <div>
+                    <input type="checkbox" id="decoracion-orilla" name="decoracion-orilla" value="decoracion-orilla">
+                    <label for="decoracion-orilla">Decoración de orilla</label>
+                </div>
+               
+
+                <div>
+                    <input type="checkbox" id="macarrons" name="macarrons" value="macarrons">
+                    <label for="macarrons">Macarrons</label>
+                </div>
+                
+                <br>
+                <br>
+                <div>
+                    <input type="checkbox" id="terms-cond-privacy" name="terms-cond-privacy" value="terms-cond-privacy">
+                    <label for="terms-cond-privacy">Acepto los <a href="/">términos y condiciones</a> y la <a href="/">política de privacidad</a> y estoy de acuerdo en enviar este formulario.</label>
+                </div>
+
+                <div class="container-buttons">
+                    <input type="submit" class="container-order-sub-res">
+                    <input type="reset" class="container-order-sub-res">
+                </div>
+                
+            </form>
+            
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div>
+            <p>Redes sociales</p>
+            <img>
+            <img>
+            <img>
+        </div>
+
+        <div>
+            <a>Aviso de privacidad</a>
+            <a>Cookies</a>
+            <a>Contacto</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Haz tu pedido aquí</h1>
+
+    <form action="/">
+        <label for="Nombre"> ¿Cuál es tú nombre tripulante?</label>
+        <input type="text" id="name" name="name" placeholder="Nombre">
+        <br><br>
+        <label for="table"> ¿Cuál es tú número mesa?</label>
+        <input type="number" id="table" name="table" placeholder="Ej: 5">
+        <br><br>
+        <p>¿Para comer aquí o para llevar?</p>
+        <label for="here">Aquí</label>
+        <input type="radio" id="here" name="here" value="Aquí">
+        <br><br>
+        <label for="togo">Para llevar</label>
+        <input type="radio" id="togo" name="togo" value="Llevar">
+        <br><br>
+        <label for="Nombre"> ¿Cuál es tú nombre tripulante?</label>
+        <input type="text" id="name" name="name" placeholder="Nombre">
+        <br><br>
+        <p>¿Tacos de qué?</p><br>
+        <input type="checkbox" id="Sputnik1" name="Sputnik1" value="Sputnik1">
+        <label for="Sputnik1">Taco Sputnik 1(Pastor)</label>
+        <input type="number" id="sputnik1-cantidad" name="sputnik1-cantidad" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="SCORE" name="SCORE" value="SCORE">
+        <label for="SCORE">Tacos score</label>
+        <input type="number" id="score-cantidad" name="score-cantidad" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Vostok" name="Vostok" value="Vostok">
+        <label for="Vostok">Tacos Vostok</label>
+        <input type="number" id="vostok-cantidad" name="vostok-cantidad" placeholder="¿Cuántos?"><br>
+
+       <p>¿Qué desea para tomar?</p>
+
+       <select name="bebida" id="bebida">
+           <option value="Refresco">Refresco</option>
+           <option value="AguaSabor">Agua de sabor</option>
+           <option value="Cerveza">Cerveza</option>
+       </select>
+       <br>
+       <br>
+       <input type="reset">
+       <input type="submit">
+
+    </form>
+</body>
+</html>
